@@ -65,6 +65,85 @@
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;"><tbody>
 
 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+
+<td style="padding:0px;width:20%;vertical-align:top">
+	<div class="one">
+		<div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
+		<source src="./assets/img/2025-4DSloMo.mp4" type="video/mp4" style="box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);object-fit: cover; border-radius: 10px;">
+		Your browser does not support the video tag.
+		</video></div>
+		<img src='./assets/img/2025-4DSloMo.png' width=100% style="box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4);border-radius: 10px;">
+	</div>
+	<script type="text/javascript">
+		function smerf_start() {
+		document.getElementById('smerf_image').style.opacity = "1";
+		}
+
+		function smerf_stop() {
+		document.getElementById('smerf_image').style.opacity = "0";
+		}
+		smerf_stop()
+	</script>
+	</td>
+<td style="padding:40px 20px 40px 0px;width:20%;vertical-align:middle">
+
+	<span class="papertitle">4DSloMo: 4D Reconstruction for High Speed Scene with Asynchronous Capture</span>
+	<br>
+	<a href="https://yutian10.github.io/">Yutian Chen</a>,
+	<strong>Shi Guo</strong>,
+	<a href="https://tianshuoy.github.io">Tianshuo Yang</a>,
+	<a href="https://dinglihe.github.io">Lihe Ding</a>,
+	<a href="">Xiuyuan Yu</a>,
+	<a href="https://www.gujinwei.org/">Jinwei Gu</a>,
+	<a href="https://tianfan.info/">Tianfan Xue</a>
+	
+	<br>
+	ACM SIGGRAPH Asia, 2025
+	<br>
+	<a href="https://openimaginglab.github.io/4DSloMo/">Project page</a>
+	/
+	<a href="https://arxiv.org/pdf/2507.05163">Paper</a>
+	/
+	<a href="https://github.com/OpenImagingLab/4DSloMo">Code (Coming soon)</a>
+	<p>Our method can reconstruct high speed and complex 4D motion with high quality.</p>	
+</td>
+</tr>
+
+
+<tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+	<td style="padding:0px;width:20%;vertical-align:top">
+		<div class="one">
+		<img src='./assets/img/2025-UltraFusion.jpg' width=100% style="box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4);border-radius: 2px;">
+		</div>
+	</td>
+	<td style="padding:0px;width:80%;vertical-align:top">
+		<span class="papertitle">UltraFusion: Ultra High Dynamic Imaging using Exposure Fusion</span>
+		<br>
+		<a href="https://scholar.google.com/citations?user=pwixOhcAAAAJ&hl=zh-CN">Zixuan Chen*</a>,
+		<a>Yujin Wang*</a>,
+		<a href="https://caixin98.github.io/">Xin Cai</a>,
+		<a href="https://zhiyuanyou.github.io/">Zhiyuan You</a>,
+		<a href="https://openreview.net/profile?id=%7EZhe-Ming_Lu1">Zheming Lu</a>,
+		<a>Fan Zhang</a>,
+		<strong>Shi Guo</strong>,
+		<a href="https://tianfan.info/">Tianfan Xue†</a>,
+		
+		<br>
+		<em>CVPR (Highlight), 2025</em>, 2024
+		<br>
+		<a href="https://ultrafusion.intern-ai.org.cn/home">Website</a>
+		/
+		<a href="https://openimaginglab.github.io/UltraFusion/">Project page</a>
+		/
+		<a href="https://arxiv.org/abs/2501.11515">Paper</a>
+		/
+		<a href="https://github.com/OpenImagingLab/UltraFusion">Code</a>
+		<p><em style="color:black;">We propose UltraFusion, the first exposure fusion technique that can merge input with 9 stops differences.</em></p>	
+	</td>
+	</tr>
+
+
+<tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
 <td style="padding:0px;width:20%;vertical-align:top">
 	<div class="one">
 	<img src='./assets/img/2024-EVSHDR.png' width=100% style="box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.4);border-radius: 2px;">
@@ -92,6 +171,7 @@
 </td>
 </tr>
 
+
 <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
 <td style="padding:0px;width:20%;vertical-align:top">
 	<div class="one">
@@ -110,7 +190,7 @@
 	<strong>Shi Guo† </strong>
 	
 	<br>
-	<em>SIGGRAPH Asia</em>, 2024
+	<em>ACM SIGGRAPH Asia</em>, 2024
 	<br>
 	<a href="https://openimaginglab.github.io/Sim2Real/">Project page</a>
 	/
